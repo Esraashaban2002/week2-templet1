@@ -22,9 +22,6 @@ body{
 .haeder , .interior-contant , .interior-detials{
     display: flex;
     justify-content: space-between;
-    @media (max-width:768px) {
-        flex-direction: column;
-    }
 }
 
 /* /////////////header/////////////////// */
@@ -47,9 +44,6 @@ body{
 .nav-link ul{
     display: flex;
     gap: 60px;
-    @media (max-width:768px) {
-        display: none;
-    }
 
 }
 .nav-link ul li a{
@@ -71,9 +65,6 @@ body{
     color: #fff;
     background-color: #1F1F1F;
     padding: 0 48px ;
-    @media (max-width:768px) {
-        display: none;
-    }
 }
 
 /* ////////// main section ////////////////// */
@@ -81,19 +72,12 @@ body{
     display: grid;
     gap: 60px;
     margin-bottom: 10rem;
-    @media (max-width:768px) {
-        width: 80%;
-     }
 }
 .interior-contant-info h2{
     font-size: 133px;
     font-weight: 500;
     line-height: 160px;
     color: #1F1F1F;
-    @media (max-width:768px) {
-       font-size: 70px;
-       line-height: 80px;
-     }
 }
 .interior-contant-info p{
     font-size: 24px;
@@ -105,13 +89,6 @@ body{
     width: 507px;
     height: 428px;
     border-radius: 4px;
-    @media (max-width:768px) {
-        width: 300px !important;
-        height: 200px !important;
-        img{
-        width: 100%;
-        }
-     }
 }
 .interior-detials-info button{
     font-size: 24px;
@@ -129,27 +106,17 @@ body{
     text-align: center;
    gap: 60px;
     color: #545454;
-    @media (max-width:768px) {
-       flex-direction: column;
-       align-items: flex-start;
-    }
 }
 .interior-detials-info ul li{
     font-size: 70px;
     font-weight: 400;
     line-height: 84px;
     text-align: center;
-    @media (max-width:768px) {
-        font-size: 50px;
-    }
 }
 .interior-detials-info ul li p{
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
-    @media (max-width:768px) {
-        font-size: 18px;
-    }
 }
 .interior-detials .interior-detials-square{
     width: 206px;
@@ -162,9 +129,6 @@ body{
 }
 .interior-detials-image{
     position: relative;
-    @media (max-width:768px) {
-        width: 80%;
-     }
 }
 .interior-detials-image img{
     position: absolute;
@@ -187,9 +151,6 @@ body{
 /* //////////////services/////////////// */
 .services{
     margin: 80px 0;
-    @media (max-width:768px) {
-        width: 80%;
-     }
 }
 .services .services-title{
   display: flex;
@@ -202,29 +163,17 @@ body{
     line-height: 70px; 
     color: #1F1F1F;
     margin-left: 15px;
-    @media (max-width:768px) {
-        width: 100% !important;
-        font-size: 40px !important;
-     }
 }
 .services .services-title  .line{
     display: inline-block;
     width: 100px;
     height: 3px;
     background-color: #1F1F1F;
-    @media (max-width:768px) {
-        width: 70px;
-     }
 }
 .services .services-items , .services .services-items .services-item{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    @media (max-width:768px) {
-        flex-direction: column;
-        margin-bottom: 20px;
-        width: 100% !important;
-    }
 }
 .services .services-items .services-item{
     width: 30%;
@@ -237,9 +186,6 @@ body{
     font-weight: 600;
     line-height: 36px;
     color: #1F1F1F;
-    @media (max-width:768px) {
-        font-size: 28px !important;
-     }
 }
 .services .services-items .services-item .services-item-content p{
     font-size: 22px;
@@ -252,17 +198,10 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 48px 0px;
-    @media (max-width:768px) {
-        flex-direction: column;
-        width: 90%;
-    }
 }
 .dream .dream-img{
     width: 40%;
     height: 100%;
-    @media (max-width:768px) {
-       width: 100%;
-    }
 }
 .dream .dream-img img{
     width: 100%;
@@ -270,19 +209,12 @@ body{
 }
 .dream .dream-content{
     width: 50%;
-    @media (max-width:768px) {
-       width: 100%;
-    }
 }
 .dream .dream-content h4{
     font-size: 58px;
     font-weight: 600;
     line-height: 70px;
     color: #1F1F1F;
-    @media (max-width:768px) {
-        font-size: 40px;
-        line-height: 50px;
-     }
 }
 .dream .dream-content p{
     font-size: 24px;
@@ -322,16 +254,9 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 48px 0px;
-    @media (max-width:768px) {
-        flex-direction: column-reverse;
-        width: 90%;
-    }
 }
 .steps .steps-contant{
     width: 50%;
-    @media (max-width:768px) {
-        width: 100%;
-     }
 }
 .steps .steps-contant > h4{
     font-size: 58px;
@@ -339,10 +264,6 @@ body{
     line-height: 70px;
     color: #1F1F1F;
     margin-bottom: 40px;
-    @media (max-width:768px) {
-        font-size: 40px;
-        line-height: 50px;
-     }
 }
 .steps .steps-contant div{
     display: flex;
@@ -395,9 +316,6 @@ body{
 .steps .steps-img{
     width: 40%;
     height: 100%;
-    @media (max-width:768px) {
-        width: 100%;
-     }
 }
 .steps .steps-img img{
     width: 100%;
@@ -408,20 +326,10 @@ body{
     display: flex;
     margin: 48px 0px;
     position: relative;
-    @media (max-width:768px) {
-        flex-direction: column-reverse;
-        width: 90%;
-        height: 70vh;
-        margin: 80px 0;
-    }
 }
 .about .about-content{
     width: 50%;
     margin: 0 auto;
-    @media (max-width:768px) {
-        width: 100%;
-        margin: 0;
-    }
 }
 .about .about-content h2{
     margin: 0px 50px;
@@ -430,17 +338,10 @@ body{
     line-height: 70px;
     text-align: center;
     color: #1F1F1F;
-    @media (max-width:768px) {
-        font-size: 40px;
-        line-height: 50px;
-     }
 }
 .about .about-img{
     width: 50%;
     height: 100%;
-    @media (max-width:768px) {
-        width: 90%;
-    }
 }
 .about .about-img > img{
     width: 100%;
@@ -454,15 +355,6 @@ body{
     position: absolute;
     left: 220px;
     top: 180px;
-    @media (max-width:768px) {
-        flex-direction: column;
-        left: 80px;
-        top: 260px;
-        .div1{
-            display: none;
-
-        }
-    }
 }
 
 .about .about-img .about-content-info .about-content-arrow{
@@ -474,18 +366,6 @@ body{
     position: absolute;
     left: -220px;
     bottom: 10px;
-    @media (max-width:768px) {
-        left: -90px;
-        bottom: 10px;
-        width: 35px;
-        height: 30px;
-        gap: 10px;
-        i{
-            line-height: 30px !important;
-            font-size: 18px !important;
-            padding: 0 5px;
-        }
-    }
 }
 .about .about-img .about-content-info .about-content-arrow i{
       background-color: #F1F1F1;
@@ -502,37 +382,17 @@ body{
     padding: 30px;
     padding-bottom: 60px;
     border-radius: 4px;
-    @media (max-width:768px) {
-        width: 260px;
-        padding: 10px;
-        padding-bottom: 30px;
-        > p{
-            margin-top: -50px;
-            font-size: 18px;
-            font-weight: 200;
-        }
-    }
-  
 }
 .about .about-img .about-content-info .about-content-details i{
     font-size: 150px;
     font-weight: 500;
     line-height: 180px;
-    @media (max-width:768px) {
-        font-size: 80px;
-        line-height: 140px;
-    }
-    
 }
 .about .about-img .about-content-info .about-content-details > p{
     font-size: 24px;
     font-weight: 500;
     line-height: 39px;
     padding-bottom: 50px;
-    @media (max-width:768px) {
-        font-size: 18px;
-        line-height: 20px;
-     }
 }
 .about .about-img .about-content-info .about-content-details div{
    display: flex;
@@ -546,9 +406,6 @@ body{
     font-size: 24px;
     font-weight: 600;
     line-height: 29px;
-    @media (max-width:768px) {
-        font-size: 18px !important;
-    }
 }
 .about .about-img .about-content-info .about-content-details div .about-content-details-pro p{
     font-size: 20px;
@@ -567,10 +424,6 @@ body{
     gap: 20px;
     text-align: center;
     position: relative;
-    @media (max-width:768px) {
-       width: 80%;
-       margin: 0;
-    }
 }
 .news .news-content {
     display: grid;
@@ -582,10 +435,6 @@ body{
     line-height: 70px;
     text-align: center;
     color: #1F1F1F;
-    @media (max-width:768px) {
-        font-size: 40px;
-        line-height: 50px;
-     }
 }
 .news .news-content p{
     font-size: 24px;
@@ -593,10 +442,6 @@ body{
     line-height: 39px;
     text-align: center;
     color: #545454;
-    @media (max-width:768px) {
-        font-size: 18px;
-        line-height: 20px;
-     }
 }
 .news .news-form{
     display: flex;
@@ -610,11 +455,6 @@ body{
     transform: translate(-50%,-50%);
     padding-left:30px;
     background-color: #fff;
-    @media (max-width:768px) {
-        width: 70%;
-        left: 35%;
-        padding: 0;
-     }
 }
 .news .news-form i{
    line-height: 80px;
@@ -630,11 +470,6 @@ body{
     line-height: 29px;
     color: #8C8C8C;
     padding-right: 200px;
-    @media (max-width:768px) {
-        padding-right: 0;
-        font-size: 18px;
-        margin: 0 8px;
-    }
 }
 .news .news-form button{
     font-size: 24px;
@@ -646,26 +481,18 @@ body{
     border: 0;
     margin: 10px;
     padding: 10px 48px;
-    @media (max-width:768px) {
-        padding: 5px 10px;
-        font-size: 18px;
-        margin-left: 0;
-    }
 }
 /* ///////////footer/////////// */
 footer{
     min-width: 100% !important;
     background-color: #1F1F1F;
+    
 }
 footer .contaner{
     display: flex ;
     justify-content: space-between;
     margin-top: 90px;
     padding: 100px 0px;
-    @media (max-width:768px) {
-       flex-direction: column;
-        margin-top: 160px;
-    }
 }
 .footer-icon{
     color: #fff;
@@ -711,12 +538,162 @@ footer .footer-services ul li a{
     font-weight: 500;
     line-height: 26px;
 }
-@media (max-width:768px) {
-footer .footer-services{
-    margin: 70px 0px;
+
+@media (max-width:768px){
+    .haeder , .interior-contant , .interior-detials{
+            flex-direction: column;
+        }
+        .nav-link ul , .haeder .header-btn{
+                display: none;
+            }
+        
+            .interior , .interior-detials-image , .services ,
+            footer{
+                    width: 80%;
+                 } 
+                 .interior-contant-info h2{
+                       font-size: 70px;
+                       line-height: 60px;
+                     }
+                     .interior-contant-image ,.dream .dream-img img, .dream .dream-img  ,
+                            .interior-contant-image img ,.steps .steps-img,
+                            .steps .steps-img img {
+                            width: 100%;
+                            }
+                            .interior-detials-info ul{
+                                   flex-direction: column;
+                                   align-items: flex-start;
+                                }
+                            .interior-detials-info ul li{
+                                font-size: 50px;
+                                }
+                            .interior-detials-info ul li p ,
+                            .about .about-img .about-content-info .about-content-details div .about-content-details-pro h4{
+                                font-size: 18px;
+                                }
+                                .services .services-title h2{
+                                        font-size: 30px ;
+                                     }
+                                     .services .services-title  .line{
+                                            width: 60px;
+                                         }
+                                         .services .services-items , .services .services-items .services-item{
+                                                flex-direction: column;
+                                                margin-bottom: 20px;
+                                                width: 100% !important;
+                                            }
+                                            .services .services-items .services-item .services-item-content h2{
+                                                font-size: 28px;
+                                            }
+                                            .dream{
+                                                    flex-direction: column;
+                                                    width: 80%;
+                                                }
+                                                .dream .dream-content , .steps .steps-contant{
+                                                       width: 100%;
+                                                    }
+                                                    .dream .dream-content h4 , .steps .steps-contant > h4 ,
+                                                    .about .about-content h2{
+                                                            font-size: 40px;
+                                                            line-height: 50px;
+                                                         }
+                                                         .steps{
+                                                                flex-direction: column-reverse;
+                                                                width: 80%;
+                                                            }
+                                                            .about{
+                                                                    flex-direction: column-reverse;
+                                                                    width: 80%;
+                                                                    height: 70vh;
+                                                                    margin: 80px 0;
+                                                                }
+                                                                .about .about-content{
+                                                                        width: 100%;
+                                                                        margin: 0;
+                                                                    }
+                                                                    .about .about-img{
+                                                                            width: 90%;
+                                                                        }
+                                                                        .about .about-img .about-content-info{
+                                                                                flex-direction: column;
+                                                                                left: 70px;
+                                                                                top: 250px;
+                                                                        }
+                                                                        .about .about-img .about-content-info .div1{
+                                                                        display: none;
+                                                            
+                                                                    }
+                                                                        
+                                                                        .about .about-img .about-content-info .about-content-arrow{
+                                                                                left: -90px;
+                                                                                bottom: 10px;
+                                                                                width: 35px;
+                                                                                height: 30px;
+                                                                                gap: 10px;
+                                                                        }
+                                                                        .about .about-img .about-content-info .about-content-arrow i{
+                                                                            line-height: 30px !important;
+                                                                            font-size: 18px !important;
+                                                                            padding: 0 5px;
+                                                                        }
+                                                                        .about .about-img .about-content-info .about-content-details{
+                                                                                width: 100%;
+                                                                                padding: 10px;
+                                                                                padding-bottom: 30px;
+                                                                        }
+                                                                        .about .about-img .about-content-info .about-content-details > p{
+                                                                            margin-top: -50px;
+                                                                            font-size: 12px;
+                                                                            font-weight: 200;
+                                                                        }
+                                                                           
+                                                                        .about .about-img .about-content-info .about-content-details i{
+                                                                                font-size: 60px;
+                                                                                line-height: 100px;
+                                                                            }
+                                                                        .about .about-img .about-content-info .about-content-details > p{
+                                                                                font-size: 16px;
+                                                                                line-height: 20px;
+                                                                             }
+                                                                             .news{
+                                                                                width: 80%;
+                                                                                margin: 0;
+                                                                                margin-top: 150px;
+                                                                             }
+                                                                            .news .news-content h4{
+                                                                                    font-size: 40px;
+                                                                                    line-height: 50px;
+                                                                                 }
+                                                                            .news .news-content p{
+                                                                                    font-size: 18px;
+                                                                                    line-height: 20px;
+                                                                                 }
+                                                                            .news .news-form{
+                                                                                    width: fit-content;
+                                                                                    left: 50%;
+                                                                                    padding: 0 5px;
+                                                                                 }
+                                                                            .news .news-form input{
+                                                                                    padding-right: 0;
+                                                                                    font-size: 12px;
+                                                                                    margin: 0 5px;
+                                                                            }
+                                                                                    .news .news-form i{
+                                                                                        font-size: 12px;
+                                                                                    }
+                                                                            .news .news-form button{
+                                                                                    padding: 0 5px;
+                                                                                    font-size: 12px;
+                                                                                    line-height: 10px;
+                                                                                }
+                                                                            footer .contaner{
+                                                                                   flex-direction: column;
+                                                                                    margin-top: 160px;
+                                                                                }
+                                                                            footer .footer-services{
+                                                                                margin: 70px 0px;
+                                                                            }
+                                                                            
+                                                                        
+                                                                            
 }
-}
-
-
-
-
